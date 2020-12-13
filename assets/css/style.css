@@ -1,3 +1,4 @@
+/* global settings begin */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +16,9 @@ body {
   background-color: var(--secondary-color);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* global settings end */
 
+/* header settings begin */
 header {
   background-image: url("../images/hero-bg.png");
   background-size: cover;
@@ -59,7 +62,9 @@ header nav ul li a {
   font-weight: lighter;
   border-bottom: 5px solid;
 }
+/* header settings end */
 
+/* hero/jumbotron settings begin */
 .hero {
   background-image: url("../images/hero-bg.png");
   background-size: cover;
@@ -89,3 +94,26 @@ header nav ul li a {
   border-radius: 100px;
   margin: 0 20px 20px 0;
 }
+/* hero/jumbotron settings end */
+
+/* main content settings begin */
+.content-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+
+.section-title {
+    font-size: 36px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10px;
+}
+
+.content {
+    margin: 0 20px;
+}
+
+/* main content settings end */
