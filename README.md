@@ -11,6 +11,6 @@ A website to showcase my personal projects!
 https://nickolauscarter.github.io/portfolio/
 
 ## Contribution
-Made by **[Nick Carter](https://www.linkedin.com/in/nickolauscarter){:target="_blank"}**
+Made by **[Nick Carter](https://www.linkedin.com/in/nickolauscarter)**
 
 ### ©️2020 Nick Carter
