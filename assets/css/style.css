@@ -142,24 +142,23 @@ header nav ul li a {
 }
 
 .work-grid a {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--primary-color);
-    display: flex;
-    align-items: flex-end;
-    padding: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--primary-color);
+  display: flex;
+  align-items: flex-end;
+  padding: 4px;
 }
 
 .work-grid div {
-    background-color: var(--secondary-color);
-    border: 10px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  border: 10px solid var(--secondary-color);
 }
 .project-1 {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
-  background-image: url("../images/project-1.png");
+  background-image: url("../images/project-1.PNG");
   background-size: 100%;
-  
 }
 
 .project-2 {
@@ -190,7 +189,6 @@ header nav ul li a {
 .contact-me ul {
   display: flex;
   justify-content: space-around;
-  border-left: 5px solid var(--primary-color);
   margin: 0 10px;
   padding: 0 15px;
   align-items: center;
@@ -208,3 +206,60 @@ header nav ul li a {
   color: var(--primary-color);
 }
 /* contact me settings end */
+
+/* media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+  header {
+    width: 90%;
+    position: relative;
+    justify-content: center;
+  }
+
+  .hero {
+    width: 90%;
+    position: relative;
+    justify-content: center;
+  }
+
+  .profile-image {
+    position: center;
+    width: 40%;
+    margin: 5px 7px;
+  }
+
+  .content-grid-wrapper {
+    display: unset;
+  }
+  .about-me {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .work {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 80%;
+  }
+
+  .contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .contact-me ul li {
+    display: flex;
+    margin: 10px 10px;
+  }
+}
